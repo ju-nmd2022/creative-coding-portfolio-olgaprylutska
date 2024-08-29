@@ -77,3 +77,4 @@ prevButton.addEventListener("click", () => {
   }
   goToExperiment(currentExperiment);
 });
+
