@@ -1,7 +1,27 @@
 [
   {
-    "file": "experiments/example.js",
-    "name": "Name of your experiment",
-    "description": "Explains the what and the why. What is the main idea? What is the purpose? Describes the coding process and implementation choices and gives a high level system overview."
+    "file": "experiments/acryliclines.js",
+    "name": "Little squares.",
+    "description": "Squares placed all over the canvas."
+  },
+  {
+    "file": "experiments/acryliclines2.js",
+    "name": "Little squares.",
+    "description": "Blue little squares placed inside black squares."
+  },
+  {
+    "file": "experiments/acryiclines3.js",
+    "name": "Little squares.",
+    "description": "Moving yellow squares."
+  },
+  {
+    "file": "experiments/spiral.js",
+    "name": "Red spirals.",
+    "description": "Red spirals on a neutral background."
+  },
+  {
+    "file": "experiments/spiral2.js",
+    "name": "Moving pink spirals.",
+    "description": "Pink spirals moving on a green background."
   }
 ]

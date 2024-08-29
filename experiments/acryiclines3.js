@@ -2,10 +2,13 @@ const size = 20;
 const divider = 10;
 const numRows = 40;
 const numCols = 40;
+const noiseScale = 0.1;
+const dotSize = 6;
+let counter = 0;
 
 function setup() {
   createCanvas(800, 800);
-  noLoop();
+  frameRate(10);
 }
 
 function draw() {
@@ -21,11 +24,17 @@ function draw() {
       stroke(255, 215, 0);
       rect(startX, startY, value, value);
       
-      stroke(0, 0, 128);
-      strokeWeight(2);
-      line(startX, startY, startX + value, startY);
+      const noiseOffsetX = noise(x * noiseScale, y * noiseScale, counter) * value;
+      const noiseOffsetY = noise((x + 100) * noiseScale, y * noiseScale, counter) * value;
       
+      const centerX = startX + value / 2;
+      const centerY = startY + value / 2;
+      stroke(0, 0, 255);
       strokeWeight(1);
+      ellipse(centerX + noiseOffsetX, centerY + noiseOffsetY, dotSize);
     }
   }
+
+  counter += 0.1;
 }
+
