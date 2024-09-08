@@ -28,5 +28,10 @@
     "file": "experiments/spiral3.js",
     "name": "Moving spirals.",
     "description": "Spirals gradually changing their colour and accelerating on click."
+  },
+  {
+    "file": "experiments/flowfield.js",
+    "name": "Moving pink spirals.",
+    "description": "Pink spirals moving on a green background."
   }
 ]
