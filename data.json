@@ -31,7 +31,13 @@
   },
   {
     "file": "experiments/flowfield.js",
-    "name": "Moving pink spirals.",
-    "description": "Pink spirals moving on a green background."
+    "name": "Lightning during thunder.",
+    "description": "White lines on a black background."
+  },
+  {
+    "file": "experiments/flowfield2.js",
+    "name": "White marble.",
+    "description": "Continious grey lines on a white background."
   }
+
 ]
