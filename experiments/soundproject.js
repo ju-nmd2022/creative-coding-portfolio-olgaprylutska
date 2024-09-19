@@ -2,6 +2,8 @@ let synth;
 let volume;
 let filter;
 let reverb;
+let oscillator;
+
 
 function setup (){
     createCanvas (800,800);
@@ -32,6 +34,7 @@ function mousePressed() {
      Tone.start();
      synth.triggerAttackRelease("C5", "8n");
 
-     setTimeout(() => synth.triggerAttackRelease("E5", "8n"), 200); 
-    setTimeout(() => synth.triggerAttackRelease("G5", "8n"), 400); 
-}
+     setTimeout(() => synth.triggerAttackRelease("B5", "8n"), 200); 
+     setTimeout(() => synth.triggerAttackRelease("C5", "8n"), 400); 
+     setTimeout(() => synth.triggerAttackRelease("A5", "8n"), 200); 
+     }
