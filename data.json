@@ -38,6 +38,10 @@
     "file": "experiments/flowfield2.js",
     "name": "White marble.",
     "description": "Continious grey lines on a white background."
+  },
+  {
+    "file": "experiments/soundproject.js",
+    "name": "Soundproject",
+    "description": "..."
   }
-
 ]
