@@ -5,7 +5,7 @@ let reverb;
 
 function setup (){
     createCanvas (800,800);
-    background (0,90,23);
+    background (210,105,30);
     textAlign(CENTER,CENTER);
     textSize(24);
     text('CLICK TO PLAY SOUND', width / 2, height / 2);
@@ -18,7 +18,7 @@ function setup (){
 
       volume = new Tone.Volume(-12);
       
-      filter = new Tone.Filter(800, "lowpass");
+      filter = new Tone.Filter(800, "bandpass");
     
       reverb = new Tone.Reverb({
         decay: 3, 
@@ -30,5 +30,8 @@ function setup (){
 
 function mousePressed() {
      Tone.start();
-     synth.triggerAttackRelease("C4", "8n");
+     synth.triggerAttackRelease("C5", "8n");
+
+     setTimeout(() => synth.triggerAttackRelease("E5", "8n"), 200); 
+    setTimeout(() => synth.triggerAttackRelease("G5", "8n"), 400); 
 }
