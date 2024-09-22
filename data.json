@@ -40,13 +40,13 @@
     "description": "Continious grey lines on a white background."
   },
   {
-    "file": "experiments/soundproject.js",
-    "name": "Soundproject",
-    "description": "..."
+    "file": "experiments/flowfield3.js",
+    "name": "Starry night.",
+    "description": "Users can draw on the screen."
   },
   {
-    "file": "experiments/flowfield3.js",
-    "name": "Starry night",
-    "description": "Users can draw on the screen"
+    "file": "experiments/soundproject.js",
+    "name": "Melodic particles.",
+    "description": "Press the mouse to hear the melody. Particles generate different notes based on their vertical position: those in the lower half of the canvas play a C4 note, while those in the upper half produce an E4 note."
   }
 ]
